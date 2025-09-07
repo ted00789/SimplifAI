@@ -5,7 +5,7 @@ const AuditorSection = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-accent/10 rounded-pill px-4 py-2 mb-4">
-            <span className="text-accent font-medium text-caption">Missed-Call Auditor</span>
+            <span className="text-accent font-medium text-caption">FREE Lost Revenue Audit</span>
           </div>
           <h2 className="text-h1 font-bold text-white mb-4">
             See What Missed Calls Are Costing You

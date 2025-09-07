@@ -6,20 +6,24 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "Can you integrate with my calendar and CRM?",
-      answer: "Yes. We connect to tools like Google Calendar, Calendly, Airtable, and popular CRMs. We'll map fields and test end-to-end before going live."
+      question: "How will this actually help me make more money?",
+      answer: "Most businesses lose revenue without realizing it — from missed calls, slow replies, or leads slipping through the cracks. Our AI voice callers and chatbots respond instantly, 24/7, so potential customers never wait or walk away. That means more calls answered, more jobs booked, and more revenue captured. On top of that, automations save hours of manual work every week, freeing your team to focus on the jobs that pay."
     },
     {
-      question: "Will the AI sound natural?", 
-      answer: "The voice caller uses high-quality, natural speech and handles interruptions. We also tune scripts to your brand's tone."
+      question: "Will it replace my staff or just support them?", 
+      answer: "This is not about replacing people — it's about making them more effective. Think of our AI as your digital front desk: it handles repetitive tasks like answering FAQs, scheduling, and after-hours calls. Your staff can then spend their time on high-value work — serving customers, closing deals, and delivering services. It's like hiring an extra receptionist who never sleeps, but at a fraction of the cost."
     },
     {
-      question: "How fast is the setup?",
-      answer: "Demos can be ready in hours. Production setups typically take a few days depending on integrations and training data."
+      question: "How hard is it to set up and use?",
+      answer: "We handle the heavy lifting for you. Once we know your business details (hours, pricing, FAQs, services), we configure everything so the system works right out of the box. Setup usually takes just a few days, and you don't need to learn any complicated tech. From there, you can log in, monitor conversations, and make small updates if needed — we'll guide you every step of the way."
     },
     {
-      question: "What if I already have a website?",
-      answer: "No problem. We can embed the chatbot/voice caller on your current site or build you a modern site that integrates everything."
+      question: "Does it sound professional and natural?",
+      answer: "Absolutely. Our AI voice callers use natural, human-like voices that sound friendly and professional. You'll never hear robotic, \"computer-generated\" tones. For chatbots, we customize the tone and responses to match your brand, so every interaction feels consistent and professional. Most customers can't even tell they're talking to AI — they just know they got help quickly."
+    },
+    {
+      question: "Can it connect with the tools I already use?",
+      answer: "Yes. Our systems integrate with tools like Google Calendar, Calendly, Airtable, and most major CRMs. We can also connect to your existing website and booking system. That means no need to change the way you work — the AI simply plugs into your existing workflow and makes it more efficient."
     }
   ];
 

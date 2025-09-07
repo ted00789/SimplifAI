@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Background Glow Effect */}
       <div className="absolute inset-0 bg-gradient-glow opacity-30 blur-3xl"></div>
       
-      <div className="relative max-w-container mx-auto px-6 pt-32 pb-20">
+      <div className="relative max-w-container mx-auto px-6 pt-32 pb-8">
         <div className="text-center max-w-4xl mx-auto">
           {/* Eyebrow */}
           <div className="inline-flex items-center bg-neutral-70/50 backdrop-blur-sm rounded-pill px-4 py-2 mb-6 border border-neutral-50/20">
@@ -34,7 +34,7 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-up">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-up">
             <Button variant="hero" size="lg" asChild>
               <a href="#demos">
                 Test Our Agents

@@ -28,7 +28,7 @@ const DemosSection = () => {
             const btn = vapiRef.current?.querySelector('#vapi-call-btn') as HTMLButtonElement;
             if (btn && (window as any).VapiWidget) {
               const widget = new (window as any).VapiWidget({ 
-                apiKey: 'f7788667-128a-4c50-87c5-3b35242678f1' 
+                apiKey: 'bab04903-f020-4e87-8a35-6c85a8bbb0d2' 
               });
               btn.addEventListener('click', () => {
                 widget.open({ assistantId: 'f77c411a-b720-4755-9ae4-bf41a506e3a4' });
@@ -100,7 +100,7 @@ const DemosSection = () => {
             Test Our Agents
           </h2>
           <p className="text-body-lg text-neutral-30 max-w-2xl mx-auto">
-            Try the AI Voice Caller and Chatbot right here on the page.
+            Try our AI agents below. These are set up as demos for a car detailing company. Want your own customized demo? Email us at <a href="mailto:tadeas@simplifai-solutions.com" className="text-secondary hover:text-accent transition-smooth">tadeas@simplifai-solutions.com</a>
           </p>
         </div>
 

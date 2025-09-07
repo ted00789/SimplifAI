@@ -19,7 +19,6 @@ const Header = () => {
     { label: "What We Do", href: "#features" },
     { label: "Live Demos", href: "#demos" },
     { label: "Auditor", href: "#auditor" },
-    { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
   ];
 
@@ -34,8 +33,8 @@ const Header = () => {
       <div className="max-w-container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="text-h3 font-bold text-white hover:text-secondary transition-smooth">
-            SimplifAI
+          <a href="#home" className="hover:opacity-80 transition-smooth">
+            <img src="/lovable-uploads/80ade4d1-18e3-4894-bd47-bc0cd9241f37.png" alt="SimplifAI" className="h-8" />
           </a>
 
           {/* Desktop Navigation */}

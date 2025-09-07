@@ -5,12 +5,12 @@ const FeaturesSection = () => {
     {
       icon: PhoneCall,
       title: "AI Voice Callers",
-      description: "Missed a call? Our agent calls back in seconds, answers questions, pre-qualifies, and books appointments — hands-free."
+      description: "Our AI picks up the call instead of letting it go unanswered. It answers questions, pre-qualifies leads, and books appointments — hands-free."
     },
     {
       icon: MessageSquare,
       title: "AI Chatbots", 
-      description: "Smart chat that knows your FAQs, pricing, and policies. Converts visitors into booked customers, 24/7."
+      description: "Smart chat that knows your FAQs, pricing, and policies. Can be added to Messenger, Instagram, WhatsApp, and many more. Converts visitors into booked customers, 24/7."
     },
     {
       icon: Zap,
@@ -25,7 +25,7 @@ const FeaturesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-h1 font-bold text-white mb-4">
-            What We Do
+            What Can We Do For YOU?
           </h2>
           <p className="text-body-lg text-neutral-30 max-w-2xl mx-auto">
             Proven, practical systems that capture revenue you're currently leaving on the table.
