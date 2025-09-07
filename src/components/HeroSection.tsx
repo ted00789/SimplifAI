@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Background Glow Effect */}
       <div className="absolute inset-0 bg-gradient-glow opacity-30 blur-3xl"></div>
       
-      <div className="relative max-w-container mx-auto px-6 pt-32 pb-8">
+      <div className="relative max-w-container mx-auto px-6 pt-32 pb-2">
         <div className="text-center max-w-4xl mx-auto">
           {/* Eyebrow */}
           <div className="inline-flex items-center bg-neutral-70/50 backdrop-blur-sm rounded-pill px-4 py-2 mb-6 border border-neutral-50/20">
