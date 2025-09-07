@@ -48,7 +48,7 @@ const HeroSection = () => {
           </div>
 
           {/* Trust Badges */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto animate-fade-up">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto animate-fade-up mb-0">
             {trustBadges.map((badge, index) => (
               <div 
                 key={index}
