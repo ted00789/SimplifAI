@@ -21,6 +21,8 @@ const Footer = () => {
     {
       title: "Get in Touch",
       items: [
+        { label: "Phone: 602 756 8791", href: "tel:6027568791" },
+        { label: "Email: tadeas@simplifai-solutions.com", href: "mailto:tadeas@simplifai-solutions.com" },
         { label: "Book a Call", href: "https://calendly.com/tadeas-simplifai-solutions/20" }
       ]
     }

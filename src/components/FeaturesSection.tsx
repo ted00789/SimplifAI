@@ -20,7 +20,7 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section id="features" className="pt-8 pb-section bg-neutral-100">
+    <section id="features" className="pt-0 pb-section bg-neutral-100">
       <div className="max-w-container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
