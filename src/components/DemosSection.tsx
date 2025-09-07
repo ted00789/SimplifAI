@@ -119,7 +119,7 @@ const DemosSection = () => {
                 Trained on your FAQs, hours, and pricing. Converts questions into bookings.
               </p>
               <p className="text-body text-neutral-30">
-                Embed on any page. Capture leads even when your team is busy.
+                Can be added to your website, Instagram DMs, Facebook DMs, WhatsApp, and many more platforms.
               </p>
             </div>
             <div 
