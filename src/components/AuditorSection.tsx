@@ -18,7 +18,7 @@ const AuditorSection = () => {
         {/* Auditor Embed */}
         <div className="bg-card border border-neutral-70 rounded-lg overflow-hidden shadow-card">
           <iframe
-            src="https://missed-call-auditor.lovable.app/"
+            src={`https://missed-call-auditor.lovable.app/?v=${Date.now()}`}
             title="Missed-Call Auditor"
             className="w-full h-[760px] border-0"
             loading="lazy"
