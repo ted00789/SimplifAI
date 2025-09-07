@@ -18,7 +18,7 @@ const Header = () => {
     { label: "Home", href: "#home" },
     { label: "What We Do", href: "#features" },
     { label: "Live Demos", href: "#demos" },
-    { label: "Auditor", href: "#auditor" },
+    { label: "How Much Am I Losing?", href: "#auditor" },
     { label: "FAQ", href: "#faq" },
   ];
 
@@ -34,7 +34,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="hover:opacity-80 transition-smooth">
-            <img src="/lovable-uploads/80ade4d1-18e3-4894-bd47-bc0cd9241f37.png" alt="SimplifAI" className="h-8" />
+            <img src="/lovable-uploads/80ade4d1-18e3-4894-bd47-bc0cd9241f37.png" alt="SimplifAI" className="h-12" />
           </a>
 
           {/* Desktop Navigation */}

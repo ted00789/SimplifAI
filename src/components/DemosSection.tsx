@@ -12,43 +12,27 @@ const DemosSection = () => {
           <div style="height:100%; width:100%; display:flex; align-items:center; justify-content:center; flex-direction: column; gap: 20px;">
             <div style="text-align: center; margin-bottom: 20px;">
               <h4 style="color: #fff; font-size: 18px; font-weight: 600; margin-bottom: 8px;">Try Our AI Receptionist</h4>
-              <p style="color: #A3AEC2; font-size: 14px;">Click to test the voice caller demo</p>
+              <p style="color: #A3AEC2; font-size: 14px;">Call our TOLL-FREE demo line</p>
             </div>
-            <button id="vapi-call-btn" style="padding:16px 24px; border-radius:12px; background:#0EA5E9; color:#fff; border:none; font-weight:600; cursor:pointer; font-size: 16px; box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3); transition: all 0.3s ease;">
-              📞 Call our AI Receptionist
-            </button>
+            <a href="tel:+16024831170" style="padding:16px 24px; border-radius:12px; background:#0EA5E9; color:#fff; border:none; font-weight:600; cursor:pointer; font-size: 16px; box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3); transition: all 0.3s ease; text-decoration: none; display: inline-block;">
+              📞 Call (602) 483-1170 - TOLL-FREE
+            </a>
           </div>
         `;
 
-        // Load VAPI script
-        const script = document.createElement('script');
-        script.src = 'https://cdn.vapi.ai/widget/vapi.js';
-        script.onload = () => {
-          try {
-            const btn = vapiRef.current?.querySelector('#vapi-call-btn') as HTMLButtonElement;
-            if (btn && (window as any).VapiWidget) {
-              const widget = new (window as any).VapiWidget({ 
-                apiKey: 'bab04903-f020-4e87-8a35-6c85a8bbb0d2' 
-              });
-              btn.addEventListener('click', () => {
-                widget.open({ assistantId: 'f77c411a-b720-4755-9ae4-bf41a506e3a4' });
-              });
-              
-              btn.addEventListener('mouseenter', () => {
-                btn.style.transform = 'scale(1.05)';
-                btn.style.boxShadow = '0 6px 20px rgba(14, 165, 233, 0.4)';
-              });
-              
-              btn.addEventListener('mouseleave', () => {
-                btn.style.transform = 'scale(1)';
-                btn.style.boxShadow = '0 4px 12px rgba(14, 165, 233, 0.3)';
-              });
-            }
-          } catch (error) {
-            console.warn('VAPI initialization error:', error);
-          }
-        };
-        document.head.appendChild(script);
+        // Add hover effects to the phone link
+        const phoneLink = vapiRef.current?.querySelector('a') as HTMLAnchorElement;
+        if (phoneLink) {
+          phoneLink.addEventListener('mouseenter', () => {
+            phoneLink.style.transform = 'scale(1.05)';
+            phoneLink.style.boxShadow = '0 6px 20px rgba(14, 165, 233, 0.4)';
+          });
+          
+          phoneLink.addEventListener('mouseleave', () => {
+            phoneLink.style.transform = 'scale(1)';
+            phoneLink.style.boxShadow = '0 4px 12px rgba(14, 165, 233, 0.3)';
+          });
+        }
       }
     };
 

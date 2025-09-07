@@ -3,7 +3,7 @@ const Footer = () => {
 
   const footerColumns = [
     {
-      title: "SimplifAI",
+      title: "logo",
       items: [
         "Less Work. More Revenue. On Autopilot.",
         `© ${currentYear} SimplifAI. All rights reserved.`
@@ -32,9 +32,17 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {footerColumns.map((column, index) => (
             <div key={index}>
-              <h4 className="text-h3 font-semibold text-white mb-4">
-                {column.title}
-              </h4>
+              {column.title === "logo" ? (
+                <img 
+                  src="/lovable-uploads/80ade4d1-18e3-4894-bd47-bc0cd9241f37.png" 
+                  alt="SimplifAI" 
+                  className="h-10 w-auto mb-4"
+                />
+              ) : (
+                <h4 className="text-h3 font-semibold text-white mb-4">
+                  {column.title}
+                </h4>
+              )}
               <ul className="space-y-3">
                 {column.items.map((item, itemIndex) => (
                   <li key={itemIndex}>

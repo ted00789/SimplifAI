@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-body-lg text-neutral-10 mb-8 leading-relaxed animate-fade-up">
-            AI voice callers and chatbots that answer instantly, qualify leads, book appointments, and follow up — while you sleep.
+            Did you know? When you answer or call back within 60 seconds, your chances of closing the sale go up by 391%.
           </p>
 
           {/* CTA Buttons */}
