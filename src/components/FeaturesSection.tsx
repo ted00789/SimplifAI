@@ -28,7 +28,7 @@ const FeaturesSection = () => {
             What Can We Do For YOU?
           </h2>
           <p className="text-body-lg text-neutral-30 max-w-2xl mx-auto">
-            Proven, practical systems that capture revenue you're currently leaving on the table.
+            Every unanswered call, every late reply, every missed follow-up costs you money. We fix that. Our AI automations capture lost revenue by engaging customers instantly, following up without fail, and keeping your business open 24/7—even when you're not.
           </p>
         </div>
 
