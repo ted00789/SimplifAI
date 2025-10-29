@@ -58,7 +58,7 @@ const ProblemSection = () => {
                   stat.highlight 
                     ? 'border-primary' 
                     : 'border-neutral-70/20'
-                }`}
+                } transition-all duration-300 hover:bg-neutral-90/70 hover:shadow-glow hover:scale-105 hover:border-primary/50`}
               >
                 <div className={`w-14 h-14 ${stat.iconBg} rounded-xl flex items-center justify-center mb-6`}>
                   <IconComponent className={`w-7 h-7 ${stat.iconColor}`} />
