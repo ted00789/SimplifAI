@@ -48,6 +48,7 @@ export default {
           50: "hsl(var(--neutral-50))",
           30: "hsl(var(--neutral-30))",
           10: "hsl(var(--neutral-10))",
+          5: "hsl(var(--neutral-5))",
         },
         white: "hsl(var(--white))",
         card: {

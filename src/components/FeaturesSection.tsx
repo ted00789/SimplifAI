@@ -31,7 +31,7 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section id="features" className="pt-8 pb-section bg-neutral-5">
+    <section id="features" className="pt-section pb-section bg-neutral-5">
       <div className="max-w-container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -49,13 +49,13 @@ const FeaturesSection = () => {
                 key={index}
                 className="text-center"
               >
-                <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mb-6 mx-auto shadow-card">
                   <IconComponent className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-h3 font-bold text-neutral-90 mb-3">
+                <h3 className="text-h3 font-bold text-neutral-100 mb-3">
                   {feature.title}
                 </h3>
-                <p className="text-body text-neutral-60 leading-relaxed">
+                <p className="text-body text-neutral-70 leading-relaxed">
                   {feature.description}
                 </p>
               </div>
@@ -71,7 +71,7 @@ const FeaturesSection = () => {
                 <div className="text-display font-extrabold text-primary mb-2">
                   {stat.value}
                 </div>
-                <p className="text-body text-neutral-60">
+                <p className="text-body text-neutral-70 font-medium">
                   {stat.label}
                 </p>
               </div>
