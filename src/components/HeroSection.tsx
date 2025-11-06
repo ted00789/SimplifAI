@@ -21,13 +21,20 @@ const HeroSection = () => {
               Your 24/7 AI Receptionist that answers calls, messages, and books clients while you focus on growing your business.
             </p>
 
-            {/* CTA Button */}
-            <Button variant="primary" size="lg" asChild>
-              <a href="#demos" className="inline-flex items-center gap-2">
-                Book a Free Demo
-                <ArrowRight className="w-5 h-5" />
-              </a>
-            </Button>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button variant="primary" size="lg" asChild>
+                <a href="#demos" className="inline-flex items-center gap-2">
+                  Book a Free Demo
+                  <ArrowRight className="w-5 h-5" />
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <a href="#demos" className="inline-flex items-center gap-2">
+                  Test Out Our Systems
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Right Content - Chat Interface Mockup */}
